@@ -15,9 +15,9 @@ public class Main {
 
     public static void main(String[] args) {
         while (true) {
-            System.out.println("\n--- МЕНЮ (5 ЛАБА) ---");
-            System.out.println("1. Завдання 1 (State, ArrayList, Comparable, Comparator, файл)");
-            System.out.println("2. Завдання 2 (Різні англійські слова через HashSet)");
+            System.out.println("\n МЕНЮ (5 ЛАБА) ");
+            System.out.println("1. Завдання 1 ");
+            System.out.println("2. Завдання 2 ");
             System.out.println("0. Вихід");
             System.out.print("Вибір: ");
 
@@ -48,7 +48,7 @@ public class Main {
         Collections.sort(monarchies);
         Collections.sort(kingdoms);
 
-        System.out.println("\n--- Відсортовані (Comparable - за населенням) ---");
+        System.out.println("\n--- Відсортовані - за населенням) ---");
         printAll(republics);
         printAll(monarchies);
         printAll(kingdoms);
@@ -82,7 +82,7 @@ public class Main {
 
         Collections.sort(all, new StateComparator());
 
-        System.out.println("\n--- Загальний список (Comparator - за назвою) ---");
+        System.out.println("\n--- Загальний список - за назвою) ---");
         printAll(all);
 
         System.out.print("Назва вихідного файлу: ");
